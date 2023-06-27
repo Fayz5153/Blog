@@ -41,7 +41,7 @@ const SinglePage = () => {
         <img src={data?.image} alt="" />
         <span>{data?.category}</span>
         <p>{data?.description}</p>
-        <button onClick={Delete}><DeleteOutlined/></button>
+        <button onClick={Delete}><DeleteOutlined style={{fontSize: "25px"}}/></button>
       </div>
     </React.Fragment>
    );
